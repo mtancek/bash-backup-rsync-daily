@@ -6,11 +6,11 @@
 ####################################
 
 # What to backup. 
-backup_sources=("/home/backup/vps.mass.si" "/home/backup/vps.njiva.si" "/home/backup/vps.plenum.si" "/home/backup/vps.vsezadom.si")
+backup_sources=("/home/user1" "/root" "/var/www")
 backup_retention_day=10
 
 # Where to backup to.
-backup_destination="/backup/plenum"
+backup_destination="/backup"
 
 # Create archive filename.
 day_retention=$(date +"%Y-%m-%d" -d "$backup_retention_day day ago")
