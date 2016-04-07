@@ -1,4 +1,4 @@
-bash-backup-rsync-daily
+Backup daily local folder
 =======================
 
 Bash backup rsync script - daily retention
